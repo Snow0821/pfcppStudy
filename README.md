@@ -1,32 +1,33 @@
 # pfcppStudy
 practicing proffessional cpp book
 
-# Standard Library and Hello, World!
+# Standard Library
     comments, module import (include), main(), I/O stream
-## Build process
-### 1. preprocess
+## Hello World example
+### Build process
+1. preprocess
     processs meta data from source code
-### 2. complie
+2. complie
     compile source code into machine code, object file (.o)
-### 3. link
+3. link
     link multiple object files into application
-## directive
+### directive
     expressions for preprocess
     starts with #
-### examples
+#### examples
     #include [file]
     #define [key] [value]
     #ifdef [key] / #endif
     #ifndef [key] / #endif
     #pragma [xyz]
-#### pragma examples
+##### pragma examples
     #pragma once -> define header with duplication check
-## main()
+### main()
     int main(int argc, char* argv[])
     argv[0] -> name of program
-## I/O stream
+### I/O stream
     <format> in C++ 20
     printf, scanf -> type safety insecure
-# namespace
+## namespace
     space to resolve name collision problem
 ## 
